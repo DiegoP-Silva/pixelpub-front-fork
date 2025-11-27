@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react'// "useState" = é oq permite que o componente lembre e atualize os dados
 
 export default function Cadastro() {

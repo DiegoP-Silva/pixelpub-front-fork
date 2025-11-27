@@ -7,15 +7,12 @@ import React from "react"; //necessária para que o código
 // NOVO: Importa o componente PromoCard (estava faltando)
 import PromoCard from "../components/PromoCard";
 
-// NOVO: Importa o Logo
-import logo from "../assets/logo.png"; // Usando o nome "logo" que você mencionou
-
 //IMPORTANDO IMAGENS --------------------------------------------------------------
 // CORRIGIDO: Caminho para as imagens. 'src/pages' para 'src/assets'
 import promobatata from "../assets/promobatata.jpg"; 
 import caipirinhaemdobro from "../assets/caipirinhaemdobro.jpg";
 
-//DECLARAÇÃO DO COMPONENTE PRINCIPA ------------------------------------------------
+//DECLARAÇÃO DO COMPONENTE PRINCIPAL------------------------------------------------
 export default function Home(){
      //ESTRUTURA DOS DADOS
    const promos = [
@@ -31,7 +28,7 @@ export default function Home(){
       title:'Promo da Noite:',
       subtitle:'Caipirinha em Dobro!!!',
       price:'20,00',
-      image: caipirinhaemdobro //usando a variável importada
+      image: caipirinhaemdobro
     },
     {
       id: 3,
